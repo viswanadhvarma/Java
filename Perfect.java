@@ -5,10 +5,8 @@ class Perfect
 		int a=15,b=20,c=30;
 		if((a>b) && (a>c))
 		{
-			if(b>c)
-				System.out.println(b);
-			else
-				System.out.println(c);
+			if(b>c)?b:c;
+				
 		}
 		if((b>c)&&(b>a))
 			if(a>c)
